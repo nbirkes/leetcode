@@ -1,6 +1,5 @@
 import { assertEquals } from "https://deno.land/std@0.140.0/testing/asserts.ts";
 
-
 function numberOfSteps(num: number): number {
   let steps = 0;
   while (num > 0) {
